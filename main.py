@@ -45,8 +45,8 @@ if __name__ == '__main__':
     greet()
     while True:
         query = take_command().lower()
-        if host in query:
-            speak(choice(random_text))
+        if "hello" in query:
+            speak("Yes, how can I help you?")
         else:
             speak('I am sorry, I did not get that')
             print('I am sorry, I did not get that')
